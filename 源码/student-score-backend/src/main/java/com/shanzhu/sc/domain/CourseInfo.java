@@ -5,8 +5,6 @@ import lombok.Data;
 /**
  * 课程具体安排
  *
- * @author: ShanZhu
- * @date: 2024-01-08
  */
 @Data
 public class CourseInfo {

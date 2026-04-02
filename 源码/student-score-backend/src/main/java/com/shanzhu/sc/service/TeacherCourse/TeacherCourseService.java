@@ -9,8 +9,6 @@ import java.util.Map;
 /**
  * 教师课程 业务服务层
  *
- * @author: ShanZhu
- * @date: 2024-01-08
  */
 public interface TeacherCourseService {
 

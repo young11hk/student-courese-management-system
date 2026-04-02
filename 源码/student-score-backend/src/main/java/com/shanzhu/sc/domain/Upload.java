@@ -5,8 +5,6 @@ import lombok.Data;
 /**
  * 文件上传
  *
- * @author: ShanZhu
- * @date: 2024-01-08
  */
 @Data
 public class Upload {

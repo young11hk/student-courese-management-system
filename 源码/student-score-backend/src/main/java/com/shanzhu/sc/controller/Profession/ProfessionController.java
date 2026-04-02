@@ -12,8 +12,6 @@ import java.util.List;
 /**
  * 专业控制层
  *
- * @author: ShanZhu
- * @date: 2024-01-08
  */
 @RestController
 @RequestMapping("/api/sms/profession")

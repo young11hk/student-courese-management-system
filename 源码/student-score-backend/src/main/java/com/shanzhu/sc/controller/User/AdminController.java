@@ -14,8 +14,6 @@ import java.util.Map;
 /**
  * 管理员账户控制层
  *
- * @author: ShanZhu
- * @date: 2024-01-08
  */
 @RestController
 @RequestMapping("/api/sms/user/admin")

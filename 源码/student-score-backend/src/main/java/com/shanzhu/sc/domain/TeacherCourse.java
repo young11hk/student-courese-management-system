@@ -5,8 +5,6 @@ import lombok.Data;
 /**
  * 教师课程任命表实体类
  *
- * @author: ShanZhu
- * @date: 2024-01-08
  */
 @Data
 public class TeacherCourse {

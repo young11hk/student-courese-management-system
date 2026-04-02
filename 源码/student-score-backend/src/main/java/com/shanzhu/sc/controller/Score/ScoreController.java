@@ -17,8 +17,6 @@ import java.util.Map;
 /**
  * 成绩 控制层
  *
- * @author: ShanZhu
- * @date: 2024-01-08
  */
 @RestController
 @RequestMapping("/api/sms/score")

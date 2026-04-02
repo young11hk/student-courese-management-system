@@ -22,8 +22,6 @@ import static java.lang.Integer.parseInt;
 /**
  * 上传文件 控制层
  *
- * @author: ShanZhu
- * @date: 2024-01-08
  */
 @RestController
 @RequestMapping("/api/sms/upload")

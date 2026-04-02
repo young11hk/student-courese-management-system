@@ -14,8 +14,6 @@ import java.util.Map;
 /**
  * 教师账号控制层
  *
- * @author: ShanZhu
- * @date: 2024-01-08
  */
 @RestController
 @RequestMapping("/api/sms/user/teacher")

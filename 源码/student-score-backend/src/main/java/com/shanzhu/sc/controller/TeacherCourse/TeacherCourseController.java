@@ -15,8 +15,6 @@ import java.util.Map;
 /**
  * 教师课程控制层
  *
- * @author: ShanZhu
- * @date: 2024-01-08
  */
 @RestController
 @RequestMapping("/api/sms/teacher/course")

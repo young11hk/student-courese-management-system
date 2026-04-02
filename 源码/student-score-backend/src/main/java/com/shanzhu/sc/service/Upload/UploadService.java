@@ -7,8 +7,6 @@ import java.util.Map;
 /**
  * 上传文件 业务服务层
  *
- * @author: ShanZhu
- * @date: 2024-01-08
  */
 public interface UploadService {
 

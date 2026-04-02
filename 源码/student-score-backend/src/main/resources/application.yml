@@ -1,0 +1,13 @@
+server:
+  port: 9121
+
+jdbc:
+  driver: com.mysql.jdbc.Driver
+  url: jdbc:mysql://localhost:3306/student_score_db?characterEncoding=utf8&allowPublicKeyRetrieval=true&useSSL=false&serverTimezone=UTC
+  username: root
+  password: 113744
+
+mybatis_config_file: mybatis-config.xml
+mapper_path: /mapper/*/**.xml
+entity_package: com.shanzhu.sc.dto
+

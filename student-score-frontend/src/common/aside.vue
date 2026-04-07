@@ -4,7 +4,7 @@
       style="border-top: 1px grey solid;"
       :collapse="collapse"
       class="aside"
-      background-color="#304156"
+      background-color="#1E90FF"
       text-color="#fff"
       router
     >
@@ -66,6 +66,22 @@
 </template>
 
 <style scoped>
+/* 图标默认白色 - 穿透scoped */
+.el-menu-item i,
+.aside /deep/ .el-menu-item i,
+.aside /deep/ i[class^="icon-"] {
+  color: #fff !important;
+}
+/* 文字默认白色 */
+.el-menu-item,
+.aside /deep/ .el-menu-item {
+  color: #fff !important;
+}
+/* hover效果 - 变深 */
+.aside /deep/ .el-menu-item:hover,
+.aside /deep/ .el-menu-item.is-active:hover {
+  background-color: #1565C0 !important;
+}
 .el-menu-item .el-icon {
   display: none !important; /* 使用 !important 确保样式优先级 */
 }
@@ -93,6 +109,11 @@ export default {
 };
 </script>
 <style scoped>
+/* 子菜单父级标题 */
+.aside /deep/ .el-submenu__title,
+.aside /deep/ .el-submenu__title i {
+  color: #fff !important;
+}
 .el-submenu .el-menu-item {
     margin-left: 61px;
 }
@@ -115,8 +136,10 @@ export default {
     /*background-image: linear-gradient(#4777e7, rgba(90,139,255,0.68));*/
 }
 
-.active {
-    background-color: #304156;
-    color: rgb(64, 158, 255);
+/* 选中状态 - 深色 */
+.active,
+.aside /deep/ .el-menu-item.is-active {
+    background-color: #1565C0 !important;
+    color: #fff !important;
 }
 </style>

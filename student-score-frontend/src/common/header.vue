@@ -6,7 +6,7 @@
             style="margin: 0 20px 0 40px; float: left"
         ></i>
       <div class="misName">
-        <span style="color: #f14d0b">学生成绩管理系统</span>
+        <span style="color: #fff">学生成绩管理系统</span>
       </div>
         <div style="float: right; margin-right: 16px">
             <!--日期-->

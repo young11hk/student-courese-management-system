@@ -8,7 +8,7 @@
         <el-aside class="asideWidth">
           <Aside @collapse="isCollapse" ref="aside"></Aside>
         </el-aside>
-        <el-main style="background-color: #ededed; padding: 0; height: 100%">
+        <el-main style="background-color: #E0F7FA; padding: 0; height: 100%">
           <Tabs></Tabs>
           <!--内容区-->
           <router-view />
@@ -84,7 +84,7 @@ export default {
 <style scoped>
   .headColor {
     height: 70px;
-    background-color: #304156;
+    background-color: #1E90FF;
     padding: 0;
     margin: 0;
   }
@@ -94,7 +94,7 @@ export default {
     width: 240px;
     transition: 0.2s;
     height: 100%;
-    background-color: #304156;
+    background-color: #1E90FF;
   }
   /deep/ .el-card__body {
     padding: 0;
